@@ -1,0 +1,30 @@
+.b-footer{
+    background-color: #444;
+    padding: 20px 0;
+
+    &__container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    &__brand{
+        color: $primary;
+    }
+
+    &__menu{
+        .menu-item-has-children{
+            a{
+                display: none;
+            }
+
+            .menu-item{
+                a{
+                    display: block;
+                }
+            }
+        }
+    }
+
+
+}
